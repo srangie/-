@@ -2,22 +2,31 @@ body {background:#DDD5B5;}
 
 div{ 
 
-  background-color: red;
+  background-color: gray;
 
-  padding-top:20px; 
+  padding-top:50px; 
 
-  padding-left:400px; 
+  padding-left:700px; 
 
-  padding-right:200px; 
+  padding-right:50px; 
 
-  padding-bottom:20px; 
+  padding-bottom:50px; 
 
-  margin-top:20px; 
+  margin-top:50px; 
 
-  margin-left:400px; 
+  margin-left:20px; 
 
-  margin-right:200px; 
-
+  margin-right:20px; 
+  
   margin-bottom:50px;   
 
+}
+
+.video-back{ 
+position:fixed;
+top:0;   
+left:0;
+min-width:100%;
+min-height:100%;
+z-index:-7;  
 }
